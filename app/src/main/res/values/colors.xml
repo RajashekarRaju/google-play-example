@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="grey">#222222</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="colorPrimary">#288C2C</color>
+    <color name="search_header_background">#3C4043</color>
+
+</resources>

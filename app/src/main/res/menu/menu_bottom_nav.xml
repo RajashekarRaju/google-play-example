@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@id/gamesFragment"
+        android:icon="@drawable/ic_games"
+        android:title="@string/menu_item_games" />
+
+    <item android:id="@id/appsFragment"
+        android:icon="@drawable/ic_apps"
+        android:title="@string/menu_item_apps" />
+
+    <item android:id="@id/moviesFragment"
+        android:icon="@drawable/ic_movies"
+        android:title="@string/menu_item_movies" />
+
+    <item android:id="@id/booksFragment"
+        android:icon="@drawable/ic_books"
+        android:title="@string/menu_item_books" />
+
+</menu>

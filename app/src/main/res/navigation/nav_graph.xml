@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/gamesFragment">
+
+    <fragment
+        android:id="@+id/appsFragment"
+        android:name="com.developersbreach.googleplayexample.view.apps.AppsFragment"
+        android:label="Apps"
+        tools:layout="@layout/fragment_apps" />
+
+    <fragment
+        android:id="@+id/booksFragment"
+        android:name="com.developersbreach.googleplayexample.view.books.BooksFragment"
+        android:label="Books"
+        tools:layout="@layout/fragment_books" />
+
+    <fragment
+        android:id="@+id/gamesFragment"
+        android:name="com.developersbreach.googleplayexample.view.games.GamesFragment"
+        android:label="Games"
+        tools:layout="@layout/fragment_games" />
+
+    <fragment
+        android:id="@+id/moviesFragment"
+        android:name="com.developersbreach.googleplayexample.view.movies.MoviesFragment"
+        android:label="Movies"
+        tools:layout="@layout/fragment_movies" />
+
+</navigation>
